@@ -1,7 +1,7 @@
 !Modifying elements for this case
 
 solve
-wait
+!wait
 
 Line.157132.normamps=200
 Line.157132.emergamps=333

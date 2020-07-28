@@ -1,5 +1,5 @@
 !Compile Circuit and add loadshapes to all loads
-Redirect "C:\Program Files\OpenDSS\IEEETestCases\8500-Node\Master-unbal.dss" ! From IEEE 8500 Buses TestCase Folder
+Redirect "../../../IEEETestCases/8500-Node/Master-unbal.dss" ! From IEEE 8500 Buses TestCase Folder
 BatchEdit CapControl..* enabled=False 
 BatchEdit RegControl..* enabled=False
 New Monitor.m1_PQ Line.ln5815900-1 terminal=1 mode=1 ppolar=No 
